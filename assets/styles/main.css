@@ -235,6 +235,99 @@ nav {
     cursor: pointer;
 }
 
+.c-padding-top {
+    padding: 120px 0px 0px;
+}
+
+.c-padding-side {
+    padding: 50px 0px
+}
+
+.courses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr {
+    display: flex;
+
+}
+
+.courses-text-container hr {
+    width: 50px;
+    background-color: #624ada;
+    height: 3px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.hr1 {
+    width: 30px;
+    background-color: #624ada;
+    height: 3px;
+    margin-left: 10px;
+}
+
+.courses-container img {
+    width: 38%;
+}
+
+.courses-text-container {
+    max-width: 600px;
+    margin-left: 85px;
+}
+
+.courses-text-container h1 {
+    color: #353535;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.courses-text-container p {
+    color: #353535;
+    line-height: 28px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.courses-text-container a {
+    background-color: #624ada;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.courses-text-container a:hover {
+    box-shadow: 0px 0px 10px 0px rgb(198, 198, 198);
+    background-color: white;
+    border: 1px solid #624ada;
+    color: #000;
+    font-weight: 600;
+    transition: .4s;
+    padding: 5px 12px;
+    font-size: 13px;
+}
+
+.courses-list li {
+    list-style: square;
+    color: #353436;
+    line-height: 28px;
+    margin-left: 20px;
+    font-weight: 600;
+
+}
+
+.courses-list li::marker {
+    background-color: #624ada;
+    color: #624ada;
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -371,7 +464,7 @@ nav {
 
 @media only screen and (max-width: 375px) {
     .home-text a {
-        padding: 10px 70px;
+        width: 90%;
     }
 
     .about-head h1 {
