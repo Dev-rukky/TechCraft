@@ -359,7 +359,6 @@ nav {
 
     .home-container img {
         padding: 0;
-        /* margin: 0; */
         width: 400px;
     }
 
@@ -386,6 +385,14 @@ nav {
     .about-grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .courses-text-container h1 {
+        font-size: 24px;
+    }
+
+    .courses-text-container p {
+        font-size: 16px;
     }
 }
 
@@ -435,9 +442,27 @@ nav {
         padding: 0px 25px;
     }
 
-    /* .card-1 {
+    .c-padding-side {
+        padding: 0px 25px;
+    }
+
+    .courses-container {
+        flex-wrap: wrap;
+    }
+
+    .courses-container img {
         width: 90%;
-    } */
+        margin-bottom: 10px;
+    }
+
+    .courses-text-container {
+        margin: 0;
+        max-width: 90%;
+    }
+
+    .courses-text-container h1 {
+        font-size: 30px;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -450,7 +475,7 @@ nav {
     }
 
     .home-text a {
-        padding: 10px 135px;
+        padding: 10px 85px;
     }
 
     .card-1 h1 {
@@ -459,6 +484,10 @@ nav {
 
     .card-1 p {
         font-size: 15px;
+    }
+
+    .courses-text-container h1 {
+        font-size: 25px;
     }
 }
 
