@@ -240,7 +240,7 @@ nav {
 }
 
 .c-padding-side {
-    padding: 50px 0px
+    padding: 0px 50px
 }
 
 .courses-container {
@@ -276,7 +276,7 @@ nav {
 
 .courses-text-container {
     max-width: 600px;
-    margin-left: 85px;
+    margin-left: 130px;
 }
 
 .courses-text-container h1 {
@@ -328,6 +328,49 @@ nav {
     background-color: #624ada;
     color: #624ada;
 }
+
+.admission-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admission-container img{
+    width: 40%;
+}
+
+.admission-text-container{
+    max-width: 600px;
+    margin-right: 50px;
+}
+
+.admission-text-container h1 {
+    font-size: 40px;
+    color: #353436;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+ }
+
+ .admission-text-container p {
+    font-size: 17px;
+    color: #353436;
+    line-height: 28px;
+    margin-bottom: 15px;
+ }
+
+ .hr2 {
+    display: flex;
+    align-items: center;
+ }
+
+ .hr2 hr {
+    width: 50px;
+    background-color: #624ada;
+    height: 3px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+ }
 
 @media only screen and (max-width: 1024px) {
 
@@ -394,6 +437,15 @@ nav {
     .courses-text-container p {
         font-size: 16px;
     }
+
+    .admission-text-container h1{
+        font-size: 24px;
+    }
+
+    .admission-text-container p{
+        font-size: 16px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -463,6 +515,29 @@ nav {
     .courses-text-container h1 {
         font-size: 30px;
     }
+
+    .admission-container{
+        flex-wrap: wrap;
+    }
+
+    .admission-text-container{
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .admission-text-container h1{
+        font-size: 30px;
+    }
+
+    .admission-container img{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:610px){
+    .nav-link ul{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -487,6 +562,10 @@ nav {
     }
 
     .courses-text-container h1 {
+        font-size: 25px;
+    }
+
+    .admission-text-container h1{
         font-size: 25px;
     }
 }
