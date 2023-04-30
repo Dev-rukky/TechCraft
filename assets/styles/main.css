@@ -329,17 +329,17 @@ nav {
     color: #624ada;
 }
 
-.admission-container{
+.admission-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.admission-container img{
+.admission-container img {
     width: 40%;
 }
 
-.admission-text-container{
+.admission-text-container {
     max-width: 600px;
     margin-right: 50px;
 }
@@ -349,28 +349,28 @@ nav {
     color: #353436;
     line-height: 50px;
     letter-spacing: 0.2px;
- }
+}
 
- .admission-text-container p {
+.admission-text-container p {
     font-size: 17px;
     color: #353436;
     line-height: 28px;
     margin-bottom: 15px;
- }
+}
 
- .hr2 {
+.hr2 {
     display: flex;
     align-items: center;
- }
+}
 
- .hr2 hr {
+.hr2 hr {
     width: 50px;
     background-color: #624ada;
     height: 3px;
     border-radius: 4px;
     margin-right: 10px;
     margin-bottom: 10px;
- }
+}
 
 @media only screen and (max-width: 1024px) {
 
@@ -438,11 +438,11 @@ nav {
         font-size: 16px;
     }
 
-    .admission-text-container h1{
+    .admission-text-container h1 {
         font-size: 24px;
     }
 
-    .admission-text-container p{
+    .admission-text-container p {
         font-size: 16px;
     }
 
@@ -516,26 +516,26 @@ nav {
         font-size: 30px;
     }
 
-    .admission-container{
+    .admission-container {
         flex-wrap: wrap;
     }
 
-    .admission-text-container{
+    .admission-text-container {
         max-width: 90%;
         margin: 0;
     }
 
-    .admission-text-container h1{
+    .admission-text-container h1 {
         font-size: 30px;
     }
 
-    .admission-container img{
+    .admission-container img {
         width: 90%;
     }
 }
 
-@media only screen and (max-width:610px){
-    .nav-link ul{
+@media only screen and (max-width:610px) {
+    .nav-link ul {
         display: none;
     }
 }
@@ -565,7 +565,7 @@ nav {
         font-size: 25px;
     }
 
-    .admission-text-container h1{
+    .admission-text-container h1 {
         font-size: 25px;
     }
 }
