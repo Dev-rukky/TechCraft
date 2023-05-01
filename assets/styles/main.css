@@ -216,6 +216,7 @@ nav {
     border-radius: 7px;
     text-align: center;
     padding: 15px;
+    max-width: 350px;
 }
 
 .card-1 h1 {
@@ -272,6 +273,7 @@ nav {
 
 .courses-container img {
     width: 38%;
+    max-width: 500px;
 }
 
 .courses-text-container {
@@ -337,6 +339,7 @@ nav {
 
 .admission-container img {
     width: 40%;
+    max-width: 500px;
 }
 
 .admission-text-container {
@@ -386,6 +389,7 @@ nav {
 
 .tuition-container img {
     width: 18%;
+    max-width: 203px;
 }
 
 .tuition-head h1 {
@@ -403,12 +407,18 @@ nav {
 }
 
 .tuition-grid-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    padding: 30px 40px 10px 80px;
+    /* display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 2rem;
     grid-row-gap: 2.5rem;
-    padding: 30px 40px 10px 80px;
+     */
 }
 
 .grid-1 {
@@ -426,6 +436,7 @@ nav {
 
 .grid-img img {
     width: 100%;
+    max-width: 350px;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -544,6 +555,7 @@ nav {
     .tuition-grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-row-gap: 2rem;
     }
 
     .tuition-head h1 {
@@ -639,13 +651,9 @@ nav {
 
     .tuition-grid-container {
         grid-template-columns: 1fr;
-        grid-row-gap: 10rem;
+        grid-row-gap: 8rem;
+        justify-items: center;
     }
-
-    .grid-1 {
-        width: 90%;
-    }
-
     .tuition-head h1 {
         font-size: 30px;
     }
@@ -729,5 +737,9 @@ nav {
 
     .grid-text h1{
         font-size: 18px;
+    }
+
+    .grid-1{
+        width: 90%;
     }
 }
