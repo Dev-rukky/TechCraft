@@ -689,6 +689,15 @@ nav {
     .admission-text-container h1 {
         font-size: 25px;
     }
+
+    .tuition-head h1{
+        font-size: 25px;
+    }
+
+    .tuition-grid-container{
+        padding: 30px 5px 10px 33px;
+        grid-row-gap: 2rem;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -716,5 +725,9 @@ nav {
 
     .card-1 p {
         font-size: 12px;
+    }
+
+    .grid-text h1{
+        font-size: 18px;
     }
 }
