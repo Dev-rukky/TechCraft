@@ -372,6 +372,101 @@ nav {
     margin-bottom: 10px;
 }
 
+.tuition {
+    text-align: center;
+}
+
+.t-padding-top {
+    padding: 120px 0px 40px 0px;
+}
+
+.t-padding-side {
+    padding: 0px 10px;
+}
+
+.tuition-container img {
+    width: 18%;
+}
+
+.tuition-head h1 {
+    font-size: 40px;
+    color: #353436;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.tuition-head p {
+    color: #353436;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+
+.tuition-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2.5rem;
+    padding: 30px 40px 10px 80px;
+}
+
+.grid-1 {
+    width: 350px;
+    height: 350px;
+    background: #ededed8a;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(198, 198, 198, 0.487);
+}
+
+.grid-1:hover {
+    transform: translateY(-15px);
+    cursor: pointer;
+}
+
+.grid-img img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.grid-text {
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+}
+
+.grid-text h1 {
+    font-size: 20px;
+    text-align: left;
+    color: #353436;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.gt-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gt-link p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #353436;
+}
+
+.gt-link a {
+    border: 1px solid #e59323;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: #353436;
+}
+
+.gt-link a:hover {
+    border: 1px solid #e59323;
+    background: #e59323;
+    color: white;
+}
+
 @media only screen and (max-width: 1024px) {
 
     body {
@@ -444,6 +539,15 @@ nav {
 
     .admission-text-container p {
         font-size: 16px;
+    }
+
+    .tuition-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tuition-head h1 {
+        font-size: 24px;
     }
 
 }
@@ -531,6 +635,23 @@ nav {
 
     .admission-container img {
         width: 90%;
+    }
+
+    .tuition-grid-container {
+        grid-template-columns: 1fr;
+        grid-row-gap: 10rem;
+    }
+
+    .grid-1 {
+        width: 90%;
+    }
+
+    .tuition-head h1 {
+        font-size: 30px;
+    }
+
+    .tuition-head p {
+        font-size: 13px;
     }
 }
 
