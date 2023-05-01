@@ -658,6 +658,7 @@ nav {
         grid-row-gap: 8rem;
         justify-items: center;
     }
+
     .tuition-head h1 {
         font-size: 30px;
     }
@@ -702,11 +703,11 @@ nav {
         font-size: 25px;
     }
 
-    .tuition-head h1{
+    .tuition-head h1 {
         font-size: 25px;
     }
 
-    .tuition-grid-container{
+    .tuition-grid-container {
         padding: 30px 5px 10px 33px;
         grid-row-gap: 2rem;
     }
@@ -739,11 +740,11 @@ nav {
         font-size: 12px;
     }
 
-    .grid-text h1{
+    .grid-text h1 {
         font-size: 18px;
     }
 
-    .grid-1{
+    .grid-1 {
         width: 90%;
     }
 }
