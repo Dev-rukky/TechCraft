@@ -200,11 +200,14 @@ nav {
 .about-grid-container {
     position: relative;
     padding: 5px;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 2rem;
-    grid-row-gap: 2.5rem;
+    grid-row-gap: 2.5rem; */
 
 }
 
@@ -604,6 +607,7 @@ nav {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-column-gap: 0;
+        justify-items: center;
     }
 
     .padding-side {
