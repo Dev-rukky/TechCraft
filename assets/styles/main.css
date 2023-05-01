@@ -546,7 +546,7 @@ nav {
     color: #353436;
 }
 
-.partners {
+/* .partners {
     text-align: center;
     padding: 50px;
 }
@@ -562,7 +562,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 60px; */
 }
 
 @media only screen and (max-width: 1024px) {
