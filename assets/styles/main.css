@@ -858,7 +858,8 @@ nav {
     }
 
     .tuition-grid-container {
-        padding: 30px 5px 10px 33px;
+        justify-items: center;
+        padding: 20px 0px;
         grid-row-gap: 2rem;
     }
 }
@@ -878,6 +879,19 @@ nav {
 
     .padding-side {
         padding: 0px 25px;
+    }
+
+    .card-1 p{
+        font-size: 14px;
+    }
+
+    .tuition-grid-container{
+        justify-items: center;
+        padding: 20px 0px;
+    }
+
+    .grid-1{
+        width: 300px;
     }
 }
 
