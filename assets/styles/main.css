@@ -961,13 +961,13 @@ nav {
         padding: 40px;
     }
 
-    .new-input input {
+     .new-input input {
         width: 70%;
     }
 
-    .new-input button {
-        left: 200px;
-    }
+     .new-input button {
+        left: 57%;
+    } 
 
     .contact-text h1 {
         font-size: 25px;
@@ -1004,9 +1004,6 @@ nav {
         width: 300px;
     }
 
-    .new-input button {
-        left: 160px;
-    }
 }
 
 @media only screen and (max-width:320px) {
@@ -1026,7 +1023,4 @@ nav {
         width: 90%;
     }
 
-    .new-input button {
-        left: 124px;
-    }
 }
