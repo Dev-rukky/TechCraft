@@ -684,17 +684,25 @@ footer {
 }
 
 .footer-grid-container {
-    display: grid;
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-column-gap: 2rem;
+    justify-content: center; */
+}
+
+.footer-grid-1 {
+    max-width: 425px;
 }
 
 .footer-grid-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    /* grid-column-gap: 1rem; */
+    grid-column-gap: 2.5rem;
 }
 
 .foot-logo p {
@@ -1010,6 +1018,7 @@ footer {
         grid-template-rows: auto;
         grid-row-gap: 1rem;
     }
+
 }
 
 @media only screen and (max-width:610px) {
@@ -1083,7 +1092,7 @@ footer {
 
     .footer-grid-2 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         grid-column-gap: 0.75rem;
     }
 }
